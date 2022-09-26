@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TABELAS</title>
+    <style>
+        boby{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            width: 300px;
+            border-collapse: collapse;
+        }
+        td, th{
+            border: 1px solid black;
+            padding: 10px;
+            color: blue;
+        }
+        thead, tfoot{
+            background-color: red;
+
+        }
+        tbody tr:nth-child(2n){
+            background-color: gray;
+        }
+    </style>
+</head>
+<body>
+    <H1>Tabelas complexas </H1>
+    <table>
+        <thead>
+            <tr>
+                <th escopo="col">Estado</th>
+                <th escopo="col">Populacao</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Sao Paulo</td>
+                <td>45 919 049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td>21 168 781</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>99 999 99</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <th escopo="row">Total de Habitantes</th>
+            <td>000000000</td>
+        </tfoot>
+    </table>
+</body>
+</html>

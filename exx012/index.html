@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pixel em imagem</title>
+</head>
+<body>
+    <h1>IMAGEM DINAMICA</h1>
+    <p>brincando com imagem em casa no pc e no navegador</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="img/vascop.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="img/vascom.png" type="image/png">
+        <img src="img/vascog.png" alt="fotog">
+    </picture>
+    <h1>AGORA VAMOS BOTAR UMA MUSIQUINHA</h1>
+    <P>Clique abaixo no play</P>
+    <audio preload="metadata" autoplay controls>
+        <source src="midia/aleatoria.mp3" type="audio/mpeg">
+    </audio>
+    <h2>Se vc quiser baixar a musica e so clicar no link abaixo</h2>
+    <a href="midia/aleatoria.mp3" download="musica"> MUSICA AQUI</a>
+    <h1>Usndo vidio no site</h1>
+    <p>e so clicar abaixo pra ver a gameplay</p>
+    <video poster="img/capa.png"  controls width="500">
+        <source src="midia/gameplaym.mp4" type="video/mp4">
+    </video>
+    <h1>insirindo vidios no youtube</h1>
+    <iframe width="560" height="560" src="https://www.youtube.com/embed/RWfhJE5JJAs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</html>
