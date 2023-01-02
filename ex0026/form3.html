@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>MEUS MEDOA ESCOLAR</h1>
+    <form action="" method="get" autocomplete="on">
+        <p><label for="sobrenome">Nome</label></p>
+        <input type="text" nome="inome" id="nome" required placeholder="ex:vasco da gama">
+
+        <p><label for="imedia">Media</label></p>
+        <input type="number" nome="numero" id="imedia" required step="0.1" value="10">
+
+        <p><label for="ianoletivo">Ano Letivo</label></p>
+        <input type="month" nome="anoletivo" id="ianoletivo" required value="2003-06">
+
+        <p><label for="idataprova">Data da prova</label></p>
+        <input type="date" nome="data" id="idataprova" required value="2003-06-20">
+
+        <p><label for="ihoraprova">Hora da prova</label></p>
+        <input type="time" name="horaprova" id="ihoraprova" required value="12:30"> <br><br>
+
+        <input type="submit" value="Enviar">    
+        <input type="reset" value="Limpar"> 
+    </form>
+</body>
+</html>
