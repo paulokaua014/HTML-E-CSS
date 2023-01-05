@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formulario</h1>
+    <form action="catris.pho" method="post">
+        <div>
+            <label for="iest">Estado: </label>
+            <select name="estado" id="iest">
+                <option value="">--Escolha--</option>
+                <optgroup label="Regiao Nordeste">
+                    <option value="MA">maranhao</option>
+                    <option value="MA">maranhao</option>
+                    <option value="MA">maranhao</option>
+                </optgroup>
+
+                <optgroup label="Regiao Sul">
+                    <option value="MA">Sao paulo</option>
+                    <option value="MA">Sao Paulo</option>
+                    <option value="MA">Sao Paulo</option>
+                </optgroup>
+            </select>
+        </div>
+        <div>
+            <label for="iprof">Profissoes</label>
+            <input type="text" name="profissoa" list="lisiprof" id="iprof">
+            <datalist id="lisiprof">
+                <option value="DEV">Desenvolvedor</option>
+                <option value="DEV">Desenvolvedor</option>
+                <option value="DEV">Desenvolvedor</option>
+                <option value="DEV">Desenvolvedor</option>
+                <option value="DEV">Desenvolvedor</option>
+            </datalist>
+        </div>
+        <div>
+            <label for="msg">Mesagem: </label><br>
+            <textarea name="mesagem" id="msg" cols="30" rows="10"></textarea>
+        </div>
+        <div>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </div>
+    </form>
+</body>
+</html>
